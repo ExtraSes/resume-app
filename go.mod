@@ -1,4 +1,4 @@
-module github.com/ExtraSes/resume-app
+module resume
 
 go 1.24.4
 
@@ -7,7 +7,6 @@ require fyne.io/fyne/v2 v2.6.3
 require (
 	fyne.io/systray v1.11.0 // indirect
 	github.com/BurntSushi/toml v1.4.0 // indirect
-	github.com/ExtraSes/resume-app/data v0.0.0
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fredbi/uri v1.1.0 // indirect
 	github.com/fsnotify/fsnotify v1.9.0 // indirect
@@ -39,5 +38,3 @@ require (
 	golang.org/x/text v0.22.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/ExtraSes/resume-app/data => ./data
